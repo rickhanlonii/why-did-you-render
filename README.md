@@ -2,8 +2,28 @@
   <img src="images/WDYR-logo.jpg" width="300px" />
 </p>
 
-# Why Did You Render
+# [DEPRECATED] Why Did You Render
 
+> [!WARNING]  
+> The library is **NO LONGER MAINTAINED**. React 19 is **NOT SUPPORTED**:
+> * Version @^8 of the library supports React 18.
+> * Version @^7 of the library supports React 17 and React 16.
+> 
+> For discussions and comments I've created [#302](https://github.com/welldone-software/why-did-you-render/issues/302).
+>
+> I've tried to adjust the library to React 19 since the beta was released. However, it seems there's no clear way to make it work at the moment, at least not without losing key features. ([Learn more about why in the PR where I made that attempt.](https://github.com/welldone-software/why-did-you-render/pull/301))
+> 
+> Additionally:
+> * I now work for Meta on React Developer Tools and will explore implementing some of the functionalities of the library into React-Devtools in the future (no promises).
+> * The React Compiler changes the way developers should think about performance optimizations in React, making the library redundant for the most part.
+> 
+> I'd like to thank all the contributors of the library throughout the years of which the top one is @Hypnosphi.
+>
+> I'd like to thank the [people who conceived this idea and implemented the first iterations](https://github.com/welldone-software/why-did-you-render/tree/deprecation?tab=readme-ov-file#credit)— @maicki, @garbles, @saifelse.
+> 
+> I'd like to thank the rest of the community for using the library, for starring it, for reporting bugs, and most of all for making the internet a faster and more pleasant place :)
+
+![No Maintenance Intended](https://img.shields.io/maintenance/no/2024.svg)
 [![npm version](https://badge.fury.io/js/%40welldone-software%2Fwhy-did-you-render.svg)](https://badge.fury.io/js/%40welldone-software%2Fwhy-did-you-render)
 [![Build Status](https://travis-ci.com/welldone-software/why-did-you-render.svg?branch=master)](https://travis-ci.com/welldone-software/why-did-you-render)
 ![NPM](https://img.shields.io/npm/l/@welldone-software/why-did-you-render?style=flat)
